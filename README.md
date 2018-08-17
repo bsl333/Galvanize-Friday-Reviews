@@ -1,10 +1,3 @@
-# Galvanize-Friday-Reviews
+# React Questions
 
-# React
-
-What is the role of super()?
-
-<details>
-  <summary>Answer:</summary>
-  super() initializes the parent component's props for the child component
-</details>
+Open the react-review file and answer the questions!
