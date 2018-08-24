@@ -2,8 +2,7 @@
 
 <details>
   <summary>Answer</summary>
-  It allows you to write action creators that return a function instead of an action.<br>
-  It also allows you to handle asyncronous actions (dispatch whenever you want).
+  It allows you to write action creators that return a function instead of an action, as well as handle asyncronous actions (dispatch whenever you want).
 </details>
 
 
