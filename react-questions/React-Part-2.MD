@@ -72,3 +72,25 @@ Describe the lifecycle of a component state change.
   <summary>Answer</summary>
   The <Link> "to" value needs to be wrapped in { } to be read by JSX
 </details>
+
+##### Is it possible to conditionally render the Candidate component?  If so, how?
+
+```javascript
+<div>
+  <Candidate castVote={ this.castVote } />
+</div>
+```
+
+<details>
+  <summary>Answer:</summary>
+  "If" is a protected keyword, so you can't just open some { } and throw a conditional inside. Use ternary operators instead.
+  
+  i.e.
+  ```javascript
+  <div>
+    {
+      this.state.isLoading ? <Spinner message="Loading..." /> : <Candidate castVote={ this.castVote } />
+    }
+  </div>
+  ```
+</details>
