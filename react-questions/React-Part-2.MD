@@ -3,7 +3,7 @@
 <details>
   <summary>Answer</summary>
   It allows you to write action creators that return a function instead of an action.<br>
-  Can handle async code this way
+  It also allows you to handle asyncronous actions (dispatch whenever you want).
 </details>
 
 
